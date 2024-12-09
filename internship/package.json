@@ -1,5 +1,6 @@
 {
   "name": "internship",
+  "homepage": "https://kulbasnet.github.io/Internship.git/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -7,7 +8,11 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy":"npm run build",
+    "deploy":"gh-pages -d dist"
+
+
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.7.1",
@@ -16,6 +21,7 @@
     "@fortawesome/free-solid-svg-icons": "^6.7.1",
     "@fortawesome/react-fontawesome": "^0.2.2",
     "antd": "^5.22.3",
+    "gh-pages": "^6.2.0",
     "react": "^18.3.1",
     "react-country-flag": "^3.1.0",
     "react-dom": "^18.3.1",
