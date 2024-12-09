@@ -201,7 +201,7 @@ html, body {
 .bottom-cards {
   display: flex;
   justify-content: space-between;
-  padding-right: 30px;
+  padding-right: 55px;
   margin-top: 20px;
 }
 
