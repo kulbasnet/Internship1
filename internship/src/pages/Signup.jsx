@@ -96,12 +96,12 @@ function Signup() {
             <div className='layout-card'>
              <button className='back-icon' onClick={handleBack}> <FontAwesomeIcon icon={faArrowLeft}  /> Back </button> 
               <div className='top-card'>
-              <Cards code="sg" title="Singapore " info="Head Office XYZ.PVT.LTD, Road To Nowhere 06-404, 500 Internal Error"/>
+              <Cards code="sg" title="Singapore "  office="Head office"  companyName="XYZ.PVT.LTD" info=" Road To Nowhere 06-404, 500 Internal Error"/>
               </div>
 
             <div className='bottom-cards'>
-            <Cards code="us" title="United States" info="Branches XYZ Inc. Nulltown, Buglandia, 500 0xDEADBEE"/>
-             <Cards code="hk" title="Hongkong" info="Branches XYZ Pte. Ltd.The Infinite Loop Office, 404 Timeout Plaza"/>
+            <Cards code="us" title="United States" office="Branches" companyName=" XYZ Inc." info="Nulltown, Buglandia, 500 0xDEADBEE"/>
+            <Cards code="hk" title="Hongkong" office="Branches" companyName="XYZ Pte. Ltd." info="The Infinite Loop Office, 404 Timeout Plaza"/>
             </div>
 
             </div>

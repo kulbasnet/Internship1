@@ -9,8 +9,6 @@ function MultiStep() {
         return status==='finish' ? (
           <div className='custom-tick'>
              <CheckOutlined />
-
-
           </div>
            
         ): (dot);
